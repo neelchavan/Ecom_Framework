@@ -1,0 +1,166 @@
+14:50:40.268 [main] INFO  demo.LoginFunctionalityTest - Browser started successfully
+14:50:44.695 [main] INFO  demo.LoginFunctionalityTest - Launched flipcart.com
+14:50:44.719 [main] INFO  demo.Listeners - Test Start: loginWithValidCreds
+14:50:44.720 [main] INFO  demo.LoginFunctionalityTest - Logging in with valid credentials
+14:50:48.073 [main] INFO  demo.LoginFunctionalityTest - Login in succes, username is neel 
+14:50:48.081 [main] INFO  demo.Listeners - Test Success: loginWithValidCreds
+14:50:50.183 [main] INFO  demo.LoginFunctionalityTest - Closed the current browser window
+14:50:51.470 [main] INFO  demo.LoginFunctionalityTest - Browser started successfully
+14:50:56.283 [main] INFO  demo.LoginFunctionalityTest - Launched flipcart.com
+14:50:56.287 [main] INFO  demo.Listeners - Test Start: loginWithValidMailInvalidPass
+14:50:56.287 [main] INFO  demo.LoginFunctionalityTest - providing valid email and invalid password
+14:50:57.190 [main] INFO  demo.LoginFunctionalityTest - got correct error message
+14:50:57.191 [main] INFO  demo.Listeners - Test Success: loginWithValidMailInvalidPass
+14:50:59.279 [main] INFO  demo.LoginFunctionalityTest - Closed the current browser window
+14:51:00.529 [main] INFO  demo.LoginFunctionalityTest - Browser started successfully
+14:51:05.046 [main] INFO  demo.LoginFunctionalityTest - Launched flipcart.com
+14:51:05.052 [main] INFO  demo.Listeners - Test Start: loginWithInvalidMailValidPass
+14:51:05.052 [main] INFO  demo.LoginFunctionalityTest - providing invalid email and valid password
+14:51:05.522 [main] INFO  demo.LoginFunctionalityTest - got correct error message
+14:51:05.522 [main] INFO  demo.Listeners - Test Success: loginWithInvalidMailValidPass
+14:51:05.624 [main] INFO  demo.LoginFunctionalityTest - Closed the current browser window
+14:51:06.892 [main] INFO  demo.LoginFunctionalityTest - Browser started successfully
+14:51:13.841 [main] INFO  demo.LoginFunctionalityTest - Launched flipcart.com
+14:51:13.847 [main] INFO  demo.Listeners - Test Start: loginWithEmptyMailEmptyPass
+14:51:13.848 [main] INFO  demo.LoginFunctionalityTest - providing empty email and empty password
+14:51:14.208 [main] INFO  demo.LoginFunctionalityTest - got correct error message
+14:51:14.209 [main] INFO  demo.Listeners - Test Success: loginWithEmptyMailEmptyPass
+14:51:16.322 [main] INFO  demo.LoginFunctionalityTest - Closed the current browser window
+14:51:17.621 [main] INFO  demo.LoginFunctionalityTest - Browser started successfully
+14:51:22.867 [main] INFO  demo.LoginFunctionalityTest - Launched flipcart.com
+14:51:22.872 [main] INFO  demo.Listeners - Test Start: loginWithEmptyMailValidPass
+14:51:22.872 [main] INFO  demo.LoginFunctionalityTest - providing empty email and valid password
+14:51:23.309 [main] INFO  demo.LoginFunctionalityTest - got correct error message
+14:51:23.310 [main] INFO  demo.Listeners - Test Success: loginWithEmptyMailValidPass
+14:51:25.384 [main] INFO  demo.LoginFunctionalityTest - Closed the current browser window
+14:51:26.679 [main] INFO  demo.LoginFunctionalityTest - Browser started successfully
+14:51:32.386 [main] INFO  demo.LoginFunctionalityTest - Launched flipcart.com
+14:51:32.388 [main] INFO  demo.Listeners - Test Start: loginWithValidMailEmptyPass
+14:51:32.388 [main] INFO  demo.LoginFunctionalityTest - providing valid email and empty password
+14:51:32.859 [main] INFO  demo.LoginFunctionalityTest - got correct error message
+14:51:32.859 [main] INFO  demo.Listeners - Test Success: loginWithValidMailEmptyPass
+14:51:32.971 [main] INFO  demo.LoginFunctionalityTest - Closed the current browser window
+14:51:34.899 [main] INFO  demo.HomePageTest - Browser started successfully
+14:51:40.805 [main] INFO  demo.HomePageTest - Launched flipcart.com
+14:51:40.807 [main] INFO  demo.Listeners - Test Start: verifyFlipcartHomePage
+14:51:40.822 [main] INFO  demo.HomePageTest - On the home page
+14:51:40.823 [main] INFO  demo.Listeners - Test Success: verifyFlipcartHomePage
+14:51:42.917 [main] INFO  demo.HomePageTest - Closed the current browser window
+14:51:44.194 [main] INFO  demo.HomePageTest - Browser started successfully
+14:51:51.970 [main] INFO  demo.HomePageTest - Launched flipcart.com
+14:51:51.977 [main] INFO  demo.Listeners - Test Start: loginToflipcartTest
+14:51:56.288 [main] INFO  demo.HomePageTest - Logged in, user is Neel
+14:51:56.288 [main] INFO  demo.Listeners - Test Success: loginToflipcartTest
+14:51:58.383 [main] INFO  demo.HomePageTest - Closed the current browser window
+14:51:59.674 [main] INFO  demo.HomePageTest - Browser started successfully
+14:52:05.293 [main] INFO  demo.HomePageTest - Launched flipcart.com
+14:52:05.295 [main] INFO  demo.Listeners - Test Start: logout
+14:52:08.056 [main] INFO  demo.HomePageTest - Logged in, user is Neel
+14:52:11.268 [main] INFO  demo.HomePageTest - Logged out
+14:52:11.270 [main] INFO  demo.Listeners - Test Success: logout
+14:52:11.376 [main] INFO  demo.HomePageTest - Closed the current browser window
+15:08:55.762 [main] INFO  demo.HomePageTest - Browser started successfully
+15:09:11.928 [main] INFO  demo.HomePageTest - Launched flipcart.com
+15:09:11.954 [main] INFO  demo.HomePageTest - On the home page
+15:09:14.160 [main] INFO  demo.HomePageTest - Closed the current browser window
+15:09:15.548 [main] INFO  demo.HomePageTest - Browser started successfully
+15:09:43.244 [main] INFO  demo.HomePageTest - Launched flipcart.com
+15:09:46.301 [main] INFO  demo.HomePageTest - Logged in, user is Neel
+15:09:46.795 [main] INFO  demo.HomePageTest - Closed the current browser window
+15:09:48.090 [main] INFO  demo.HomePageTest - Browser started successfully
+15:10:13.531 [main] INFO  demo.HomePageTest - Launched flipcart.com
+15:10:16.533 [main] INFO  demo.HomePageTest - Logged in, user is Neel
+15:10:19.328 [main] INFO  demo.HomePageTest - Logged out
+15:10:19.547 [main] INFO  demo.HomePageTest - Closed the current browser window
+15:34:31.044 [main] INFO  demo.HomePageTest - Browser started successfully
+15:34:32.541 [main] INFO  demo.HomePageTest - Launched flipcart.com
+15:35:25.972 [main] INFO  demo.HomePageTest - Browser started successfully
+15:35:32.388 [main] INFO  demo.HomePageTest - Launched flipcart.com
+15:35:36.412 [main] INFO  demo.HomePageTest - Closed the current browser window
+15:37:12.708 [main] INFO  demo.HomePageTest - Browser started successfully
+15:37:19.611 [main] INFO  demo.HomePageTest - Launched flipcart.com
+15:37:23.192 [main] INFO  demo.HomePageTest - Closed the current browser window
+15:39:03.282 [main] INFO  demo.HomePageTest - Browser started successfully
+15:39:08.406 [main] INFO  demo.HomePageTest - Launched flipcart.com
+15:39:11.694 [main] INFO  demo.HomePageTest - verified catagories
+15:39:13.781 [main] INFO  demo.HomePageTest - Closed the current browser window
+15:40:08.300 [main] INFO  demo.HomePageTest - Browser started successfully
+15:40:13.145 [main] INFO  demo.HomePageTest - Launched flipcart.com
+15:40:16.671 [main] INFO  demo.HomePageTest - Closed the current browser window
+15:40:52.803 [main] INFO  demo.HomePageTest - Browser started successfully
+15:40:57.376 [main] INFO  demo.HomePageTest - Launched flipcart.com
+15:41:00.648 [main] INFO  demo.HomePageTest - catagories verified 
+15:41:02.771 [main] INFO  demo.HomePageTest - Closed the current browser window
+11:36:03.827 [main] INFO  demo.HomePageTest - Browser started successfully
+11:36:18.924 [main] INFO  demo.HomePageTest - Launched flipcart.com
+11:36:31.896 [main] INFO  demo.HomePageTest - Closed the current browser window
+11:37:53.955 [main] INFO  demo.HomePageTest - Browser started successfully
+11:37:58.388 [main] INFO  demo.HomePageTest - Launched flipcart.com
+11:38:13.630 [main] INFO  demo.HomePageTest - Closed the current browser window
+11:45:56.531 [main] INFO  demo.HomePageTest - Browser started successfully
+11:46:07.491 [main] INFO  demo.HomePageTest - Launched flipcart.com
+11:46:09.928 [main] INFO  demo.HomePageTest - Closed the current browser window
+11:46:30.469 [main] INFO  demo.HomePageTest - Browser started successfully
+11:46:49.948 [main] INFO  demo.HomePageTest - Launched flipcart.com
+11:46:58.663 [main] INFO  demo.HomePageTest - Closed the current browser window
+11:50:40.793 [main] INFO  demo.HomePageTest - Browser started successfully
+11:50:44.696 [main] INFO  demo.HomePageTest - Launched flipcart.com
+11:50:53.056 [main] INFO  demo.HomePageTest - Closed the current browser window
+11:52:48.982 [main] INFO  demo.HomePageTest - Browser started successfully
+11:52:57.154 [main] INFO  demo.HomePageTest - Launched flipcart.com
+11:53:04.707 [main] INFO  demo.HomePageTest - Closed the current browser window
+11:58:07.837 [main] INFO  demo.HomePageTest - Browser started successfully
+11:58:11.177 [main] INFO  demo.HomePageTest - Launched flipcart.com
+11:58:17.916 [main] INFO  demo.HomePageTest - search functionality verified
+11:58:20.172 [main] INFO  demo.HomePageTest - Closed the current browser window
+12:17:15.738 [main] INFO  demo.HomePageTest - Browser started successfully
+12:17:20.220 [main] INFO  demo.HomePageTest - Launched flipcart.com
+12:17:26.578 [main] INFO  demo.HomePageTest - Closed the current browser window
+12:18:24.339 [main] INFO  demo.HomePageTest - Browser started successfully
+12:18:30.155 [main] INFO  demo.HomePageTest - Launched flipcart.com
+12:18:40.141 [main] INFO  demo.HomePageTest - Closed the current browser window
+12:24:59.431 [main] INFO  demo.HomePageTest - Browser started successfully
+12:25:04.860 [main] INFO  demo.HomePageTest - Launched flipcart.com
+12:25:12.604 [main] INFO  demo.HomePageTest - Closed the current browser window
+12:55:06.427 [main] INFO  demo.HomePageTest - Browser started successfully
+12:55:17.420 [main] INFO  demo.HomePageTest - Launched flipcart.com
+12:55:20.863 [main] INFO  demo.HomePageTest - Logged in, user is Neel
+12:55:24.722 [main] INFO  demo.HomePageTest - Logged out
+12:57:14.705 [main] INFO  demo.HomePageTest - Browser started successfully
+12:57:30.335 [main] INFO  demo.HomePageTest - Launched flipcart.com
+12:58:01.693 [main] INFO  demo.HomePageTest - Closed the current browser window
+12:58:40.936 [main] INFO  demo.HomePageTest - Browser started successfully
+12:58:46.572 [main] INFO  demo.HomePageTest - Launched flipcart.com
+12:59:11.010 [main] INFO  demo.HomePageTest - Closed the current browser window
+13:01:37.173 [main] INFO  demo.HomePageTest - Browser started successfully
+13:02:24.489 [main] INFO  demo.HomePageTest - Launched flipcart.com
+13:02:57.558 [main] INFO  demo.HomePageTest - Closed the current browser window
+13:11:43.658 [main] INFO  demo.HomePageTest - Browser started successfully
+13:11:49.664 [main] INFO  demo.HomePageTest - Launched flipcart.com
+13:12:16.274 [main] INFO  demo.HomePageTest - Closed the current browser window
+13:21:44.471 [main] INFO  demo.HomePageTest - Browser started successfully
+13:21:50.508 [main] INFO  demo.HomePageTest - Launched flipcart.com
+13:22:16.429 [main] INFO  demo.HomePageTest - Closed the current browser window
+13:33:46.328 [main] INFO  demo.HomePageTest - Browser started successfully
+13:33:52.151 [main] INFO  demo.HomePageTest - Launched flipcart.com
+16:54:28.811 [main] INFO  demo.HomePageTest - Browser started successfully
+16:55:18.918 [main] INFO  demo.HomePageTest - Launched flipcart.com
+16:55:44.803 [main] INFO  demo.HomePageTest - Browser started successfully
+16:56:17.292 [main] INFO  demo.HomePageTest - Launched flipcart.com
+16:56:36.417 [main] INFO  demo.HomePageTest - Closed the current browser window
+16:58:04.468 [main] INFO  demo.HomePageTest - Browser started successfully
+16:58:45.450 [main] INFO  demo.HomePageTest - Launched flipcart.com
+16:58:56.801 [main] INFO  demo.HomePageTest - Product specification page verified
+16:58:59.952 [main] INFO  demo.HomePageTest - Closed the current browser window
+13:55:30.178 [main] INFO  demo.HomePageTest - Browser started successfully
+13:55:35.264 [main] INFO  demo.HomePageTest - Launched flipcart.com
+13:55:40.064 [main] INFO  demo.HomePageTest - search functionality verified
+13:55:43.460 [main] INFO  demo.HomePageTest - Closed the current browser window
+14:32:19.980 [main] INFO  demo.HomePageTest - Browser started successfully
+14:32:56.367 [main] INFO  demo.HomePageTest - Launched flipcart.com
+14:33:02.845 [main] INFO  demo.HomePageTest - Verfied filter options successfully
+14:33:06.066 [main] INFO  demo.HomePageTest - Closed the current browser window
+17:40:49.324 [main] INFO  demo.HomePageTest - Browser started successfully
+17:41:47.923 [main] INFO  demo.HomePageTest - Launched flipcart.com
+17:41:56.801 [main] INFO  demo.HomePageTest - Verfied filter options successfully
+17:41:59.593 [main] INFO  demo.HomePageTest - Closed the current browser window
