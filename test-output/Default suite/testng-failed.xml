@@ -5,7 +5,7 @@
     <classes>
       <class name="demo.ProductDetailsPageTest">
         <methods>
-          <include name="verifyProductImagePresence"/>
+          <include name="wishListOptionPresence"/>
           <include name="openBrowser"/>
           <include name="tearDown"/>
         </methods>

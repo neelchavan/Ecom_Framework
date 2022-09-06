@@ -248,3 +248,43 @@
 17:07:53.310 [main] INFO  demo.ProductDetailsPageTest - Launched flipcart.com
 17:08:52.604 [main] INFO  demo.ProductDetailsPageTest - Browser started successfully
 17:09:08.997 [main] INFO  demo.ProductDetailsPageTest - Launched flipcart.com
+17:45:46.729 [main] INFO  demo.ProductDetailsPageTest - Browser started successfully
+17:46:32.624 [main] INFO  demo.ProductDetailsPageTest - Launched flipcart.com
+17:50:55.836 [main] INFO  demo.ProductDetailsPageTest - Browser started successfully
+17:51:31.274 [main] INFO  demo.ProductDetailsPageTest - Launched flipcart.com
+18:00:33.076 [main] INFO  demo.ProductDetailsPageTest - Browser started successfully
+18:00:38.841 [main] INFO  demo.ProductDetailsPageTest - Launched flipcart.com
+18:00:52.238 [main] INFO  demo.ProductDetailsPageTest - Verified that product image is displayed correctly.
+18:18:46.106 [main] INFO  demo.ProductDetailsPageTest - Browser started successfully
+18:19:45.581 [main] INFO  demo.ProductDetailsPageTest - Launched flipcart.com
+18:19:57.401 [main] INFO  demo.ProductDetailsPageTest - Verified that product price details is displayed correctly.
+18:21:17.709 [main] INFO  demo.ProductDetailsPageTest - Browser started successfully
+18:21:46.358 [main] INFO  demo.ProductDetailsPageTest - Launched flipcart.com
+18:22:00.385 [main] INFO  demo.ProductDetailsPageTest - Verified that product price details is displayed correctly.
+19:06:09.156 [main] INFO  demo.ProductDetailsPageTest - Browser started successfully
+19:06:18.158 [main] INFO  demo.ProductDetailsPageTest - Launched flipcart.com
+19:07:39.072 [main] INFO  demo.ProductDetailsPageTest - Verified that product specification details is displayed correctly.
+19:21:39.491 [main] INFO  demo.ProductDetailsPageTest - Browser started successfully
+19:21:47.661 [main] INFO  demo.ProductDetailsPageTest - Launched flipcart.com
+19:25:55.551 [main] INFO  demo.ProductDetailsPageTest - Browser started successfully
+19:26:04.076 [main] INFO  demo.ProductDetailsPageTest - Launched flipcart.com
+19:26:15.672 [main] INFO  demo.ProductDetailsPageTest - Verified that product price details is displayed correctly.
+19:26:38.066 [main] INFO  demo.ProductDetailsPageTest - Browser started successfully
+19:26:43.151 [main] INFO  demo.ProductDetailsPageTest - Launched flipcart.com
+19:28:20.107 [main] INFO  demo.ProductDetailsPageTest - Browser started successfully
+19:28:30.766 [main] INFO  demo.ProductDetailsPageTest - Launched flipcart.com
+19:28:40.617 [main] INFO  demo.ProductDetailsPageTest - Verified that product ratings details is displayed correctly.
+19:41:04.786 [main] INFO  demo.ProductDetailsPageTest - Browser started successfully
+19:41:12.154 [main] INFO  demo.ProductDetailsPageTest - Launched flipcart.com
+19:43:49.921 [main] INFO  demo.ProductDetailsPageTest - Browser started successfully
+19:43:54.463 [main] INFO  demo.ProductDetailsPageTest - Launched flipcart.com
+19:45:06.136 [main] INFO  demo.ProductDetailsPageTest - Verified that wishlist option is displayed and enabled correctly.
+19:51:09.389 [main] INFO  demo.ProductDetailsPageTest - Browser started successfully
+19:51:15.210 [main] INFO  demo.ProductDetailsPageTest - Launched flipcart.com
+19:52:03.935 [main] INFO  demo.ProductDetailsPageTest - Verified that wishlist option is displayed and enabled correctly.
+20:14:37.902 [main] INFO  demo.ProductDetailsPageTest - Browser started successfully
+20:14:45.676 [main] INFO  demo.ProductDetailsPageTest - Launched flipcart.com
+20:14:55.985 [main] INFO  demo.ProductDetailsPageTest - Verified that wishlist 'Add to cart' and 'Buy now' buttons is displayed and enabled correctly.
+20:47:47.364 [main] INFO  demo.ProductDetailsPageTest - Browser started successfully
+20:48:03.016 [main] INFO  demo.ProductDetailsPageTest - Launched flipcart.com
+20:48:18.725 [main] INFO  demo.ProductDetailsPageTest - Verified that product price details is displayed correctly.
