@@ -129,7 +129,7 @@ public class HomePage {
 		List<WebElement> products = driver.findElements(searchedProductResult);
 		for (WebElement x : products) {
 			if (x.getText().equals(searchProduct)) {
-				System.out.println(x.getText());
+				// System.out.println(x.getText());
 				x.click();
 				break;
 			}

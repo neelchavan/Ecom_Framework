@@ -14,4 +14,9 @@
 			<class name="demo.HomePageTest" />
 		</classes>
 	</test> <!-- Test -->
+	<test name="FlipcartHomePage">
+		<classes>
+			<class name="demo.SearchPageTest" />
+		</classes>
+	</test> <!-- Test -->
 </suite> <!-- Suite -->

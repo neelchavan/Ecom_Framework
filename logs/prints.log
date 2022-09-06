@@ -164,3 +164,87 @@
 17:41:47.923 [main] INFO  demo.HomePageTest - Launched flipcart.com
 17:41:56.801 [main] INFO  demo.HomePageTest - Verfied filter options successfully
 17:41:59.593 [main] INFO  demo.HomePageTest - Closed the current browser window
+12:08:16.627 [main] INFO  demo.HomePageTest - Browser started successfully
+12:08:43.760 [main] INFO  demo.HomePageTest - Launched flipcart.com
+12:08:49.106 [main] INFO  demo.HomePageTest - Verfied sorting options successfully
+12:08:52.191 [main] INFO  demo.HomePageTest - Closed the current browser window
+12:19:33.835 [main] INFO  demo.HomePageTest - Browser started successfully
+12:19:39.585 [main] INFO  demo.HomePageTest - Launched flipcart.com
+12:19:45.660 [main] INFO  demo.HomePageTest - Verfied filter options successfully
+12:19:51.066 [main] INFO  demo.HomePageTest - Closed the current browser window
+12:35:27.817 [main] INFO  demo.HomePageTest - Browser started successfully
+12:35:43.337 [main] INFO  demo.HomePageTest - Launched flipcart.com
+12:36:51.658 [main] INFO  demo.HomePageTest - Browser started successfully
+12:37:07.457 [main] INFO  demo.HomePageTest - Launched flipcart.com
+12:37:16.581 [main] INFO  demo.HomePageTest - Closed the current browser window
+12:39:17.918 [main] INFO  demo.HomePageTest - Browser started successfully
+12:39:40.508 [main] INFO  demo.HomePageTest - Launched flipcart.com
+12:40:01.430 [main] INFO  demo.HomePageTest - Closed the current browser window
+12:42:42.915 [main] INFO  demo.HomePageTest - Browser started successfully
+12:42:50.769 [main] INFO  demo.HomePageTest - Launched flipcart.com
+12:42:59.794 [main] INFO  demo.HomePageTest - Closed the current browser window
+12:46:57.941 [main] INFO  demo.HomePageTest - Browser started successfully
+12:47:20.720 [main] INFO  demo.HomePageTest - Launched flipcart.com
+12:48:37.128 [main] INFO  demo.HomePageTest - Browser started successfully
+12:48:55.427 [main] INFO  demo.HomePageTest - Launched flipcart.com
+12:49:11.413 [main] INFO  demo.HomePageTest - Closed the current browser window
+12:52:05.765 [main] INFO  demo.HomePageTest - Browser started successfully
+12:52:46.039 [main] INFO  demo.HomePageTest - Launched flipcart.com
+12:54:54.417 [main] INFO  demo.HomePageTest - Closed the current browser window
+13:00:43.559 [main] INFO  demo.HomePageTest - Browser started successfully
+13:00:57.086 [main] INFO  demo.HomePageTest - Launched flipcart.com
+13:01:26.344 [main] INFO  demo.HomePageTest - Closed the current browser window
+13:05:32.859 [main] INFO  demo.HomePageTest - Browser started successfully
+13:06:37.122 [main] INFO  demo.HomePageTest - Launched flipcart.com
+13:07:59.198 [main] INFO  demo.HomePageTest - Browser started successfully
+13:09:00.517 [main] INFO  demo.HomePageTest - Launched flipcart.com
+13:09:07.672 [main] INFO  demo.HomePageTest - Closed the current browser window
+13:12:04.847 [main] INFO  demo.HomePageTest - Browser started successfully
+13:13:24.951 [main] INFO  demo.HomePageTest - Launched flipcart.com
+13:13:33.010 [main] INFO  demo.HomePageTest - Closed the current browser window
+13:14:29.215 [main] INFO  demo.HomePageTest - Browser started successfully
+13:15:01.260 [main] INFO  demo.HomePageTest - Launched flipcart.com
+13:15:38.414 [main] INFO  demo.HomePageTest - Closed the current browser window
+13:20:09.298 [main] INFO  demo.HomePageTest - Browser started successfully
+13:20:20.754 [main] INFO  demo.HomePageTest - Launched flipcart.com
+13:20:31.319 [main] INFO  demo.HomePageTest - Closed the current browser window
+13:23:59.423 [main] INFO  demo.HomePageTest - Browser started successfully
+13:24:35.325 [main] INFO  demo.HomePageTest - Launched flipcart.com
+13:24:46.737 [main] INFO  demo.HomePageTest - There are 40 on one page.
+13:24:52.286 [main] INFO  demo.HomePageTest - Closed the current browser window
+13:54:10.423 [main] INFO  demo.HomePageTest - Browser started successfully
+13:54:17.078 [main] INFO  demo.HomePageTest - Launched flipcart.com
+13:55:26.796 [main] INFO  demo.HomePageTest - Browser started successfully
+13:55:32.363 [main] INFO  demo.HomePageTest - Launched flipcart.com
+13:56:04.343 [main] INFO  demo.HomePageTest - Browser started successfully
+13:56:15.728 [main] INFO  demo.HomePageTest - Launched flipcart.com
+13:56:23.400 [main] INFO  demo.HomePageTest - There are 40 on one page.
+13:56:28.120 [main] INFO  demo.HomePageTest - Closed the current browser window
+13:56:46.966 [main] INFO  demo.HomePageTest - Browser started successfully
+13:56:54.266 [main] INFO  demo.HomePageTest - Launched flipcart.com
+13:57:07.731 [main] INFO  demo.HomePageTest - Closed the current browser window
+13:59:35.941 [main] INFO  demo.HomePageTest - Browser started successfully
+13:59:41.603 [main] INFO  demo.HomePageTest - Launched flipcart.com
+13:59:55.980 [main] INFO  demo.HomePageTest - Closed the current browser window
+14:01:33.771 [main] INFO  demo.HomePageTest - Browser started successfully
+14:01:51.316 [main] INFO  demo.HomePageTest - Launched flipcart.com
+14:02:24.460 [main] INFO  demo.HomePageTest - Browser started successfully
+14:02:35.377 [main] INFO  demo.HomePageTest - Launched flipcart.com
+14:02:50.492 [main] INFO  demo.HomePageTest - Closed the current browser window
+13:30:48.027 [main] INFO  demo.HomePageTest - Browser started successfully
+13:31:01.973 [main] INFO  demo.HomePageTest - Launched flipcart.com
+13:31:18.905 [main] INFO  demo.HomePageTest - Closed the current browser window
+13:33:23.308 [main] INFO  demo.HomePageTest - Browser started successfully
+13:33:54.371 [main] INFO  demo.HomePageTest - Launched flipcart.com
+13:34:02.853 [main] INFO  demo.HomePageTest - Verified nav button on search page successfully
+13:34:07.276 [main] INFO  demo.HomePageTest - Closed the current browser window
+17:00:23.919 [main] INFO  demo.ProductDetailsPageTest - Browser started successfully
+17:00:34.222 [main] INFO  demo.ProductDetailsPageTest - Launched flipcart.com
+17:02:40.967 [main] INFO  demo.ProductDetailsPageTest - Browser started successfully
+17:03:12.260 [main] INFO  demo.ProductDetailsPageTest - Launched flipcart.com
+17:05:16.472 [main] INFO  demo.ProductDetailsPageTest - Browser started successfully
+17:05:44.011 [main] INFO  demo.ProductDetailsPageTest - Launched flipcart.com
+17:07:43.230 [main] INFO  demo.ProductDetailsPageTest - Browser started successfully
+17:07:53.310 [main] INFO  demo.ProductDetailsPageTest - Launched flipcart.com
+17:08:52.604 [main] INFO  demo.ProductDetailsPageTest - Browser started successfully
+17:09:08.997 [main] INFO  demo.ProductDetailsPageTest - Launched flipcart.com

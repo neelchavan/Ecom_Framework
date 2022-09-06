@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-31T17:40:44 IST" name="Default suite" finished-at="2022-08-31T17:41:59 IST" duration-ms="74964">
+  <suite started-at="2022-09-06T17:08:49 IST" name="Default suite" finished-at="2022-09-06T17:09:22 IST" duration-ms="33919">
     <groups>
     </groups>
-    <test started-at="2022-08-31T17:40:44 IST" name="Default test" finished-at="2022-08-31T17:41:59 IST" duration-ms="74964">
-      <class name="demo.SearchPageTest">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:demo.SearchPageTest@274872f8]" started-at="2022-08-31T17:40:44 IST" name="openBrowser" finished-at="2022-08-31T17:41:54 IST" duration-ms="69500" status="PASS">
+    <test started-at="2022-09-06T17:08:49 IST" name="Default test" finished-at="2022-09-06T17:09:22 IST" duration-ms="33919">
+      <class name="demo.ProductDetailsPageTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:demo.ProductDetailsPageTest@274872f8]" started-at="2022-09-06T17:08:49 IST" name="openBrowser" finished-at="2022-09-06T17:09:14 IST" duration-ms="25419" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="verifyFilterOptionsTest()[pri:1, instance:demo.SearchPageTest@274872f8]" started-at="2022-08-31T17:41:54 IST" name="verifyFilterOptionsTest" finished-at="2022-08-31T17:41:56 IST" duration-ms="2600" status="PASS">
+        <test-method signature="verifyProductImagePresence()[pri:1, instance:demo.ProductDetailsPageTest@274872f8]" started-at="2022-09-06T17:09:14 IST" name="verifyProductImagePresence" finished-at="2022-09-06T17:09:21 IST" duration-ms="6840" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyFilterOptionsTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:demo.SearchPageTest@274872f8]" started-at="2022-08-31T17:41:56 IST" name="tearDown" finished-at="2022-08-31T17:41:59 IST" duration-ms="2787" status="PASS">
+        </test-method> <!-- verifyProductImagePresence -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:demo.ProductDetailsPageTest@274872f8]" started-at="2022-09-06T17:09:21 IST" name="tearDown" finished-at="2022-09-06T17:09:22 IST" duration-ms="1576" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- demo.SearchPageTest -->
+      </class> <!-- demo.ProductDetailsPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

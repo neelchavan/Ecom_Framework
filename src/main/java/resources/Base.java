@@ -30,15 +30,15 @@ public class Base {
 			// "webdriver.chrome.silentOutput".
 			System.setProperty("webdriver.chrome.silentOutput", "true");
 			System.setProperty("webdriver.chrome.driver", "D:\\Neel\\tools\\chromeD\\chromedriver.exe");
-			//ChromeOptions options = new ChromeOptions();
-			//options.addArguments("headless");
+			// ChromeOptions options = new ChromeOptions();
+			// options.addArguments("headless");
 			driver = new ChromeDriver();
 		}
 
 		// maximize browser window
 		driver.manage().window().maximize();
 
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(7));
 		return driver;
 	}
 
