@@ -90,7 +90,7 @@ public class ProductDetailsPage {
 		return status;
 	}
 
-	// verify if 'Add to cart' and 'Buy now' buttons are displayed and enabled
+	// verify if 'Add to cart' and 'Buy now' buttons are displayed and enabled.
 	public boolean addToCartAndBuyNow() {
 		boolean status = false;
 		WebElement addToCartButton = driver.findElement(addToCartBtn);
