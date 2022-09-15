@@ -35,7 +35,7 @@ public class Listeners extends Base implements ITestListener {
 		// TODO Auto-generated method stub
 		extentTest.get().log(Status.PASS, "Test Passed");
 		System.out.println("Test Success: " + result.getMethod().getMethodName());
-		log.info("Test Success: " + result.getMethod().getMethodName());
+		log.info("Test End: " + result.getMethod().getMethodName() + " RESULT PASS");
 	}
 
 	public void onTestFailure(ITestResult result) {
@@ -56,7 +56,7 @@ public class Listeners extends Base implements ITestListener {
 			e.printStackTrace();
 		}
 		System.out.println("Test Failure: " + result.getMethod().getMethodName());
-		log.info("Test Failure: " + result.getMethod().getMethodName());
+		log.info("Test End: " + result.getMethod().getMethodName() + " RESULT FAILED");
 	}
 
 	public void onTestSkipped(ITestResult result) {

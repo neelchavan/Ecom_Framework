@@ -30,8 +30,8 @@ public class Base {
 			// "webdriver.chrome.silentOutput".
 			System.setProperty("webdriver.chrome.silentOutput", "true");
 			System.setProperty("webdriver.chrome.driver", "D:\\Neel\\tools\\chromeD\\chromedriver.exe");
-			// ChromeOptions options = new ChromeOptions();
-			// options.addArguments("headless");
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("headless");
 			driver = new ChromeDriver();
 		}
 
@@ -46,7 +46,7 @@ public class Base {
 		// this step stores screenshot into virtual location
 		File source = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		// move the scrShot from virtual location and store it into desired folder.
-		String destination = System.getProperty("user.dir") + "\\reports\\" + "At " + methodName + ".png";
+		String destination = System.getProperty("user.dir") + "\\reports\\" + "At_" + methodName + "_.png";
 		// copy file at destination
 		FileUtils.copyFile(source, new File(destination));
 		return destination;

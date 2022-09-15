@@ -9,6 +9,7 @@ import org.openqa.selenium.WebElement;
 public class SearchPage {
 	public WebDriver driver;
 	HomePage hp;
+	ProductDetailsPage pd;
 
 	public SearchPage(WebDriver driver) {
 		this.driver = driver;
@@ -87,7 +88,9 @@ public class SearchPage {
 
 	public void SearchProdAndOpenSpecific(String search) {
 		hp = new HomePage(driver);
+		pd = new ProductDetailsPage(driver);
 		hp.searchForProduct(search);
+		pd.mouseOver();
 		String searchResult = driver.findElement(searchResults).getText();
 		String numOfProdOnOnePage = searchResult.split("– ")[1].split("of")[0].trim();
 		if (numOfProdOnOnePage.equals("24")) {

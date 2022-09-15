@@ -4,19 +4,19 @@
 	<listeners>
 		<listener class-name="demo.Listeners" />
 	</listeners>
-	<test name="LoginFunctionalityTest">
-		<classes>
-			<class name="demo.LoginFunctionalityTest" />
-		</classes>
-	</test> <!-- Test -->
-	<test name="FlipcartHomePage">
+	<test name="Flipcart Home Page">
 		<classes>
 			<class name="demo.HomePageTest" />
 		</classes>
-	</test> <!-- Test -->
-	<test name="FlipcartHomePage">
+	</test>
+	<test name="Flipcart Search Functionality">
 		<classes>
 			<class name="demo.SearchPageTest" />
 		</classes>
-	</test> <!-- Test -->
+	</test>
+	<test name="Flipcart Product Page">
+		<classes>
+			<class name="demo.ProductDetailsPageTest" />
+		</classes>
+	</test>
 </suite> <!-- Suite -->

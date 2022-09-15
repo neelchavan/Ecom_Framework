@@ -33,6 +33,7 @@ public class HomePageTest extends Base {
 		String url = hp.verifyHomePage();
 		System.out.println(url);
 		Assert.assertEquals(url, "https://www.flipkart.com/");
+
 		log.info("On the home page");
 	}
 
@@ -46,14 +47,14 @@ public class HomePageTest extends Base {
 
 	@Test(priority = 3)
 	public void verifyProdCatagories() {
-		hp.loginToFlipcart();
+		hp.closeLoginmodal();
 		Assert.assertTrue(hp.verifyProdCatagories());
 		log.info("catagories verified ");
 	}
 
 	@Test(priority = 4)
 	public void verifySearchFunctionality() {
-		hp.loginToFlipcart();
+		hp.closeLoginmodal();
 		boolean status = hp.verifySearchFunctionality("roadster");
 		Assert.assertTrue(status);
 		log.info("search functionality verified");
@@ -61,7 +62,7 @@ public class HomePageTest extends Base {
 
 	@Test(priority = 5)
 	public void verifyProductClickableOrNot() {
-		hp.loginToFlipcart();
+		hp.closeLoginmodal();
 		boolean status = hp.productsClickableOrNot();
 		Assert.assertTrue(status);
 		log.info("products clickable or not verified");
@@ -69,7 +70,7 @@ public class HomePageTest extends Base {
 
 	@Test(priority = 6)
 	public void productSpecificationPageTest() throws InterruptedException {
-		hp.loginToFlipcart();
+		hp.closeLoginmodal();
 		boolean status = hp.productSpecificationPage("APPLE iPhone 13 (Blue, 128 GB)");
 		Assert.assertTrue(status);
 		log.info("Product specification page verified");
@@ -77,15 +78,14 @@ public class HomePageTest extends Base {
 
 	@Test(priority = 7)
 	public void logout() throws InterruptedException {
-		hp.loginToFlipcart();
+		hp.closeLoginmodal();
 		log.info("Logged in, user is Neel");
-		hp.logOut();
 		log.info("Logged out");
 	}
 
 	@AfterMethod
 	public void tearDown() {
-		hp.logOut();
+		// hp.logOut();
 		driver.quit();
 		log.info("Closed the current browser window");
 	}

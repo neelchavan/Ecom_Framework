@@ -33,7 +33,7 @@ public class ProductDetailsPageTest extends Base {
 		pd = new ProductDetailsPage(driver);
 		sp = new SearchPage(driver);
 		wh = new WindowHandler(driver);
-		hp.loginToFlipcart();
+		hp.closeLoginmodal();
 	}
 
 	@Test(priority = 1)
@@ -111,7 +111,6 @@ public class ProductDetailsPageTest extends Base {
 	@AfterMethod
 	public void tearDown() {
 		// logout and close browser
-		hp.logOut();
 		driver.quit();
 	}
 }

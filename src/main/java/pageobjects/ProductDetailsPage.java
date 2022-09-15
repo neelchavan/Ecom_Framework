@@ -5,6 +5,7 @@ import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 
 public class ProductDetailsPage {
 	public WebDriver driver;
@@ -20,11 +21,19 @@ public class ProductDetailsPage {
 	By specificationText = By.cssSelector("._5pFuey");
 	By specificationTable = By.xpath("//tbody");
 	By specificationTypes = By.cssSelector(".flxcaE");
-	By productRatings = By.cssSelector("._3_L3jD");
+	By productRatings = By.xpath("//span[contains(@class,'_2_R_DZ')]/span/span");
 	By wishlistOption = By.cssSelector("._2hVSre");
 	By buyNowBtn = By.xpath("//button[text()='BUY NOW']");
 	By addToCartBtn = By.xpath("//button[text()='ADD TO CART']");
+	By mouseOver = By.xpath("//div[contains(@class, 'go_DOp')]//span[text()='Become a Seller']");
 
+	// performing the mouse over because 'Sports, Books & More' hides the page
+	public void mouseOver() {
+		WebElement becomeASeller = driver.findElement(mouseOver);
+		Actions action = new Actions(driver);
+		action.moveToElement(becomeASeller).perform();
+	}
+	
 	// verify if product image is displayed or not
 	public boolean productImagePresence() {
 		boolean status = false;
@@ -73,9 +82,13 @@ public class ProductDetailsPage {
 	// verify if product ratings are displayed correctly
 	public boolean prouctRatingsPresence() {
 		boolean status = false;
-		WebElement rating = driver.findElement(productRatings);
-		if (rating.isDisplayed()) {
-			status = true;
+		List<WebElement> rating = driver.findElements(productRatings);
+		for (WebElement x : rating) {
+			if (x.isDisplayed()) {
+				status = true;
+			} else {
+				return false;
+			}
 		}
 		return status;
 	}
