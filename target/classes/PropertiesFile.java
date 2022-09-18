@@ -21,8 +21,11 @@ public class PropertiesFile {
 			// load the config file to get key value pairs
 			prop.load(input);
 
-			// read the config file and extract the browser name
-			String browser = prop.getProperty("browser");
+			// read the config file and extract the browser name or get the browser name
+			// from command line, use "System.getProperty()" to read the value coming from
+			// maven
+			String browser = System.getProperty("browser") != null ? System.getProperty("browser")
+					: prop.getProperty("browser");
 
 			// In the Base class set the static variale "browserName" value to "browser"
 			Base.browserName = browser;
