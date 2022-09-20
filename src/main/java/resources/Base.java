@@ -12,6 +12,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class Base {
 	public WebDriver driver;
 
@@ -23,13 +25,13 @@ public class Base {
 		PropertiesFile.getProperties();
 
 		if (browserName.equals("firefox")) {
-			System.setProperty("webdriver.gecko.driver", "D:\\Neel\\tools\\gecko\\geckodriver.exe");
+			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
 		} else if (browserName.equals("chrome")) {
 			// to remove unwanted chrome browser warnings use
 			// "webdriver.chrome.silentOutput".
 			System.setProperty("webdriver.chrome.silentOutput", "true");
-			System.setProperty("webdriver.chrome.driver", "D:\\Neel\\tools\\chromeD\\chromedriver.exe");
+			WebDriverManager.chromedriver().setup();
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("headless");
 			driver = new ChromeDriver();

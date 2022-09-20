@@ -2,20 +2,20 @@
 <testng-results ignored="5" total="6" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-15T23:58:41 IST" name="Default suite" finished-at="2022-09-15T23:59:06 IST" duration-ms="24983">
+  <suite started-at="2022-09-20T18:50:58 IST" name="Default suite" finished-at="2022-09-20T18:51:36 IST" duration-ms="37918">
     <groups>
     </groups>
-    <test started-at="2022-09-15T23:58:41 IST" name="Default test" finished-at="2022-09-15T23:59:06 IST" duration-ms="24983">
+    <test started-at="2022-09-20T18:50:58 IST" name="Default test" finished-at="2022-09-20T18:51:36 IST" duration-ms="37918">
       <class name="demo.ProductDetailsPageTest">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:demo.ProductDetailsPageTest@42b64ab8]" started-at="2022-09-15T23:58:41 IST" name="openBrowser" finished-at="2022-09-15T23:58:58 IST" duration-ms="16840" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:demo.ProductDetailsPageTest@4e76dac]" started-at="2022-09-20T18:50:59 IST" name="openBrowser" finished-at="2022-09-20T18:51:30 IST" duration-ms="31896" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="productPricePresence()[pri:2, instance:demo.ProductDetailsPageTest@42b64ab8]" started-at="2022-09-15T23:58:58 IST" name="productPricePresence" finished-at="2022-09-15T23:59:05 IST" duration-ms="7288" status="PASS">
+        <test-method signature="verifyProductImagePresence()[pri:1, instance:demo.ProductDetailsPageTest@4e76dac]" started-at="2022-09-20T18:51:30 IST" name="verifyProductImagePresence" finished-at="2022-09-20T18:51:35 IST" duration-ms="4547" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- productPricePresence -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:demo.ProductDetailsPageTest@42b64ab8]" started-at="2022-09-15T23:59:05 IST" name="tearDown" finished-at="2022-09-15T23:59:06 IST" duration-ms="783" status="PASS">
+        </test-method> <!-- verifyProductImagePresence -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:demo.ProductDetailsPageTest@4e76dac]" started-at="2022-09-20T18:51:35 IST" name="tearDown" finished-at="2022-09-20T18:51:36 IST" duration-ms="1392" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
