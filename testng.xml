@@ -9,7 +9,7 @@
 			<class name="demo.HomePageTest" />
 		</classes>
 	</test>
-	<test name="Flipcart Search Functionality">
+	<test name="Flipcart Search Funtionality">
 		<classes>
 			<class name="demo.SearchPageTest" />
 		</classes>

@@ -1,8 +1,0 @@
-18:48:29.635 [main] INFO  demo.ProductDetailsPageTest - Browser started successfully
-18:48:37.286 [main] INFO  demo.ProductDetailsPageTest - Launched flipcart.com
-18:48:43.242 [main] INFO  demo.ProductDetailsPageTest - Verified that product image is displayed correctly.
-18:49:28.064 [main] INFO  demo.ProductDetailsPageTest - Browser started successfully
-18:50:01.856 [main] INFO  demo.ProductDetailsPageTest - Launched flipcart.com
-18:51:05.617 [main] INFO  demo.ProductDetailsPageTest - Browser started successfully
-18:51:30.576 [main] INFO  demo.ProductDetailsPageTest - Launched flipcart.com
-18:51:35.513 [main] INFO  demo.ProductDetailsPageTest - Verified that product image is displayed correctly.
