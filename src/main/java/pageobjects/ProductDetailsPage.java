@@ -33,7 +33,7 @@ public class ProductDetailsPage {
 		Actions action = new Actions(driver);
 		action.moveToElement(becomeASeller).perform();
 	}
-	
+
 	// verify if product image is displayed or not
 	public boolean productImagePresence() {
 		boolean status = false;
@@ -51,7 +51,6 @@ public class ProductDetailsPage {
 		boolean status = false;
 		WebElement price = driver.findElement(productPrice);
 		if (price.isDisplayed()) {
-			System.out.println("Price: " + price.getText());
 			status = true;
 		} else {
 			return false;

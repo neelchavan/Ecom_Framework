@@ -21,7 +21,7 @@ public class PropertiesFile {
 			// load the config file to get key value pairs
 			prop.load(input);
 
-			// read the config file and extract the browser name or get the browser name
+			// read the config file and extract the browser name or to get the browser name
 			// from command line, use "System.getProperty()" to read the value coming from
 			// maven
 			String browser = System.getProperty("browser") != null ? System.getProperty("browser")

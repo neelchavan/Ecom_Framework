@@ -13,9 +13,11 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import pageobjects.HomePage;
 
 public class Base {
 	public WebDriver driver;
+	HomePage hp;
 
 	public static String browserName = null;
 
@@ -31,17 +33,23 @@ public class Base {
 			// to remove unwanted chrome browser warnings use
 			// "webdriver.chrome.silentOutput".
 			System.setProperty("webdriver.chrome.silentOutput", "true");
-//			System.setProperty("webdriver.chrome.driver", "D:\\Neel\\tools\\chromeD\\chromedriver.exe");
 			WebDriverManager.chromedriver().setup();
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("headless");
-			driver = new ChromeDriver(options);
+			driver = new ChromeDriver();
 		}
 
 		// maximize browser window
 		driver.manage().window().maximize();
 
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(7));
+
+		// launch flipcart
+		driver.get("https://www.flipkart.com/");
+
+		// close login modal
+		hp = new HomePage(driver);
+		hp.closeLoginmodal();
 		return driver;
 	}
 

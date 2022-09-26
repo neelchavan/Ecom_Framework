@@ -1,25 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-23T20:34:37 IST" name="Suite" finished-at="2022-09-23T20:35:20 IST" duration-ms="42598">
+  <suite started-at="2022-09-25T15:02:36 IST" name="Default suite" finished-at="2022-09-25T15:03:51 IST" duration-ms="74930">
     <groups>
     </groups>
-    <test started-at="2022-09-23T20:34:37 IST" name="Flipcart Product Page" finished-at="2022-09-23T20:35:20 IST" duration-ms="42598">
-      <class name="demo.ProductDetailsPageTest">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:demo.ProductDetailsPageTest@1162410a]" started-at="2022-09-23T20:34:37 IST" name="openBrowser" finished-at="2022-09-23T20:35:12 IST" duration-ms="34956" status="PASS">
+    <test started-at="2022-09-25T15:02:36 IST" name="Default test" finished-at="2022-09-25T15:03:51 IST" duration-ms="74930">
+      <class name="demo.LoginFunctionalityTest">
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:demo.LoginFunctionalityTest@18d11527]" started-at="2022-09-25T15:02:37 IST" name="startBrowser" finished-at="2022-09-25T15:03:38 IST" duration-ms="61518" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="verifyProductImagePresence()[pri:1, instance:demo.ProductDetailsPageTest@1162410a]" started-at="2022-09-23T20:35:12 IST" name="verifyProductImagePresence" finished-at="2022-09-23T20:35:19 IST" duration-ms="6926" status="PASS">
+        </test-method> <!-- startBrowser -->
+        <test-method signature="loginWithValidCreds()[pri:1, instance:demo.LoginFunctionalityTest@18d11527]" started-at="2022-09-25T15:03:38 IST" name="loginWithValidCreds" finished-at="2022-09-25T15:03:47 IST" duration-ms="8887" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyProductImagePresence -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:demo.ProductDetailsPageTest@1162410a]" started-at="2022-09-23T20:35:19 IST" name="tearDown" finished-at="2022-09-23T20:35:20 IST" duration-ms="623" status="PASS">
+        </test-method> <!-- loginWithValidCreds -->
+        <test-method is-config="true" signature="navigateToHomePage()[pri:0, instance:demo.LoginFunctionalityTest@18d11527]" started-at="2022-09-25T15:03:47 IST" name="navigateToHomePage" finished-at="2022-09-25T15:03:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHomePage -->
+        <test-method signature="loginWithValidMailInvalidPass()[pri:2, instance:demo.LoginFunctionalityTest@18d11527]" started-at="2022-09-25T15:03:47 IST" name="loginWithValidMailInvalidPass" finished-at="2022-09-25T15:03:49 IST" duration-ms="1709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidMailInvalidPass -->
+        <test-method is-config="true" signature="navigateToHomePage()[pri:0, instance:demo.LoginFunctionalityTest@18d11527]" started-at="2022-09-25T15:03:49 IST" name="navigateToHomePage" finished-at="2022-09-25T15:03:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHomePage -->
+        <test-method signature="loginWithInvalidMailValidPass()[pri:3, instance:demo.LoginFunctionalityTest@18d11527]" started-at="2022-09-25T15:03:49 IST" name="loginWithInvalidMailValidPass" finished-at="2022-09-25T15:03:49 IST" duration-ms="510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidMailValidPass -->
+        <test-method is-config="true" signature="navigateToHomePage()[pri:0, instance:demo.LoginFunctionalityTest@18d11527]" started-at="2022-09-25T15:03:49 IST" name="navigateToHomePage" finished-at="2022-09-25T15:03:49 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHomePage -->
+        <test-method signature="loginWithEmptyMailEmptyPass()[pri:4, instance:demo.LoginFunctionalityTest@18d11527]" started-at="2022-09-25T15:03:49 IST" name="loginWithEmptyMailEmptyPass" finished-at="2022-09-25T15:03:50 IST" duration-ms="480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithEmptyMailEmptyPass -->
+        <test-method is-config="true" signature="navigateToHomePage()[pri:0, instance:demo.LoginFunctionalityTest@18d11527]" started-at="2022-09-25T15:03:50 IST" name="navigateToHomePage" finished-at="2022-09-25T15:03:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHomePage -->
+        <test-method signature="loginWithEmptyMailValidPass()[pri:5, instance:demo.LoginFunctionalityTest@18d11527]" started-at="2022-09-25T15:03:50 IST" name="loginWithEmptyMailValidPass" finished-at="2022-09-25T15:03:50 IST" duration-ms="513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithEmptyMailValidPass -->
+        <test-method is-config="true" signature="navigateToHomePage()[pri:0, instance:demo.LoginFunctionalityTest@18d11527]" started-at="2022-09-25T15:03:50 IST" name="navigateToHomePage" finished-at="2022-09-25T15:03:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHomePage -->
+        <test-method signature="loginWithValidMailEmptyPass()[pri:6, instance:demo.LoginFunctionalityTest@18d11527]" started-at="2022-09-25T15:03:50 IST" name="loginWithValidMailEmptyPass" finished-at="2022-09-25T15:03:51 IST" duration-ms="507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidMailEmptyPass -->
+        <test-method is-config="true" signature="navigateToHomePage()[pri:0, instance:demo.LoginFunctionalityTest@18d11527]" started-at="2022-09-25T15:03:51 IST" name="navigateToHomePage" finished-at="2022-09-25T15:03:51 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHomePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:demo.LoginFunctionalityTest@18d11527]" started-at="2022-09-25T15:03:51 IST" name="tearDown" finished-at="2022-09-25T15:03:51 IST" duration-ms="627" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- demo.ProductDetailsPageTest -->
-    </test> <!-- Flipcart Product Page -->
-  </suite> <!-- Suite -->
+      </class> <!-- demo.LoginFunctionalityTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

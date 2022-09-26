@@ -69,18 +69,9 @@ public class HomePage {
 		// the line below is for explicit wait.
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		hp = new HomePage(driver);
-		if (driver.findElement(loginPopUp).isDisplayed()) {
-			hp.loginMethod(flipEmail, flipPassword);
-			// wait until the profile name is displayed on your flipcart account.
-			wait.until(ExpectedConditions.visibilityOfElementLocated(neel));
-			profileName = driver.findElement(neel).getText();
-		} else {
-			driver.findElement(login).click();
-			hp.loginMethod(flipEmail, flipPassword);
-			// wait until the profile name is displayed on your flipcart account.
-			wait.until(ExpectedConditions.visibilityOfElementLocated(neel));
-			profileName = driver.findElement(neel).getText();
-		}
+		hp.loginMethod(flipEmail, flipPassword);
+		wait.until(ExpectedConditions.visibilityOfElementLocated(neel));
+		profileName = driver.findElement(neel).getText();
 		return profileName;
 	}
 
@@ -165,12 +156,19 @@ public class HomePage {
 	}
 
 	public void logOut() {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		// To perform mouse and keyboard actions
 		WebElement ele = driver.findElement(neel);
 		Actions actions = new Actions(driver);
 		actions.moveToElement(ele).perform();
+		wait.until(ExpectedConditions.visibilityOfElementLocated(logout));
 		driver.findElement(logout).click();
+		wait.until(ExpectedConditions.visibilityOfElementLocated(login));
 		// Assert.assertTrue(driver.findElement(loginPopUp).isDisplayed());
+	}
+
+	public void openLoginModal() {
+		driver.findElement(login).click();
 	}
 
 }

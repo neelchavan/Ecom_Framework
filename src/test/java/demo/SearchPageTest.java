@@ -4,7 +4,9 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -21,16 +23,14 @@ public class SearchPageTest extends Base {
 
 	private static Logger log = LogManager.getLogger(HomePageTest.class.getName());
 
-	@BeforeMethod
+	@BeforeClass
 	public void openBrowser() {
 		driver = startDriver();
 		log.info("Browser started successfully");
-		driver.get("https://www.flipkart.com/");
 		log.info("Launched flipcart.com");
 		hp = new HomePage(driver);
 		sp = new SearchPage(driver);
 		pd = new ProductDetailsPage(driver);
-		hp.closeLoginmodal();
 	}
 
 	@Test(priority = 1)
@@ -69,8 +69,13 @@ public class SearchPageTest extends Base {
 	}
 
 	@AfterMethod
+	public void navigateToHomePage() {
+		driver.get("https://www.flipkart.com/");
+		log.info("NAVIGATED TO HOME PAGE");
+	}
+
+	@AfterClass
 	public void tearDown() {
 		driver.quit();
-		log.info("Closed the current browser window");
 	}
 }

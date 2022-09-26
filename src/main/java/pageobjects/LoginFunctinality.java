@@ -40,7 +40,7 @@ public class LoginFunctinality {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		lf = new LoginFunctinality(driver);
 		lf.loginMethod(validMail, validPass);
-		wait.until(ExpectedConditions.invisibilityOfElementLocated(neel));
+		wait.until(ExpectedConditions.visibilityOfElementLocated(neel));
 		profileName = driver.findElement(neel).getText();
 		return profileName;
 	}

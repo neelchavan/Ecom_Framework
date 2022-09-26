@@ -4,7 +4,9 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -23,17 +25,15 @@ public class ProductDetailsPageTest extends Base {
 
 	private static Logger log = LogManager.getLogger(ProductDetailsPageTest.class.getName());
 
-	@BeforeMethod
+	@BeforeClass
 	public void openBrowser() {
 		driver = startDriver();
 		log.info("Browser started successfully");
-		driver.get("https://www.flipkart.com/");
 		log.info("Launched flipcart.com");
 		hp = new HomePage(driver);
 		pd = new ProductDetailsPage(driver);
 		sp = new SearchPage(driver);
 		wh = new WindowHandler(driver);
-		hp.closeLoginmodal();
 	}
 
 	@Test(priority = 1)
@@ -100,7 +100,7 @@ public class ProductDetailsPageTest extends Base {
 	public void addToCartAndBuyNowButtons() {
 		boolean status = false;
 		String parentWindow = driver.getWindowHandle();
-		sp.SearchProdAndOpenSpecific("durex");
+		sp.SearchProdAndOpenSpecific("oppo");
 		wh.handleSingleWindow(parentWindow);
 		status = pd.addToCartAndBuyNow();
 		wh.getBackToDefaultWindow(parentWindow);
@@ -109,8 +109,13 @@ public class ProductDetailsPageTest extends Base {
 	}
 
 	@AfterMethod
+	public void navigateToHomePage() {
+		driver.get("https://www.flipkart.com/");
+		log.info("NAVIGATED TO HOME PAGE");
+	}
+
+	@AfterClass
 	public void tearDown() {
-		// logout and close browser
 		driver.quit();
 	}
 }

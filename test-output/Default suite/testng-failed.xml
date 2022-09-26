@@ -3,13 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="demo.SearchPageTest">
+      <class name="demo.LoginFunctionalityTest">
         <methods>
+          <include name="loginWithEmptyMailValidPass"/>
+          <include name="loginWithInvalidMailValidPass"/>
+          <include name="loginWithEmptyMailEmptyPass"/>
+          <include name="startBrowser"/>
+          <include name="navigateToHomePage"/>
+          <include name="loginWithValidMailEmptyPass"/>
           <include name="tearDown"/>
-          <include name="navigationOptionsTest"/>
-          <include name="openBrowser"/>
         </methods>
-      </class> <!-- demo.SearchPageTest -->
+      </class> <!-- demo.LoginFunctionalityTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
