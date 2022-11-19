@@ -36,7 +36,7 @@ public class Base {
 			WebDriverManager.chromedriver().setup();
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("headless");
-			driver = new ChromeDriver();
+			driver = new ChromeDriver(options);
 		}
 
 		// maximize browser window
