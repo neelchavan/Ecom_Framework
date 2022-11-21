@@ -16,7 +16,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import pageobjects.HomePage;
 
 public class Base {
-	public WebDriver driver;
+	private WebDriver driver;
 	HomePage hp;
 
 	public static String browserName = null;

@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>TestNG:  Flipcart Product Page</title>
+<title>TestNG:  Flipcart Search Funtionality</title>
 <link href="../testng.css" rel="stylesheet" type="text/css" />
 <link href="../my-testng.css" rel="stylesheet" type="text/css" />
 
@@ -53,13 +53,13 @@ function toggleAllBoxes() {
 
 </head>
 <body>
-<h2 align='center'>Flipcart Product Page</h2><table border='1' align="center">
+<h2 align='center'>Flipcart Search Funtionality</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/0/6</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/4</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Nov 21 19:30:54 IST 2022</td>
+<td>Started on:</td><td>Mon Nov 21 19:30:53 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (335 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (411 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,7 +76,7 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='demo.ProductDetailsPageTest.openBrowser()'><b>openBrowser</b><br>Test class: demo.ProductDetailsPageTest</td>
+<td title='demo.SearchPageTest.openBrowser()'><b>openBrowser</b><br>Test class: demo.SearchPageTest</td>
 <td><div><pre>io.github.bonigarcia.wdm.config.WebDriverManagerException: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com
 	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1422)
 	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1203)
@@ -87,7 +87,7 @@ function toggleAllBoxes() {
 	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1203)
 	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:418)
 	at resources.Base.startDriver(Base.java:36)
-	at demo.ProductDetailsPageTest.openBrowser(ProductDetailsPageTest.java:30)
+	at demo.SearchPageTest.openBrowser(SearchPageTest.java:28)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 Caused by: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com
 	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1576)
@@ -126,8 +126,8 @@ Caused by: java.net.UnknownHostException: chromedriver.storage.googleapis.com
 	at io.github.bonigarcia.wdm.online.HttpClient.execute(HttpClient.java:158)
 	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1561)
 	... 38 more
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1487424018", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1487424018'><pre>io.github.bonigarcia.wdm.config.WebDriverManagerException: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1756837032", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1756837032'><pre>io.github.bonigarcia.wdm.config.WebDriverManagerException: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com
 	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1422)
 	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1203)
 	at io.github.bonigarcia.wdm.WebDriverManager.fallback(WebDriverManager.java:1438)
@@ -137,7 +137,7 @@ Caused by: java.net.UnknownHostException: chromedriver.storage.googleapis.com
 	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1203)
 	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:418)
 	at resources.Base.startDriver(Base.java:36)
-	at demo.ProductDetailsPageTest.openBrowser(ProductDetailsPageTest.java:30)
+	at demo.SearchPageTest.openBrowser(SearchPageTest.java:28)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -203,7 +203,7 @@ Caused by: java.net.UnknownHostException: chromedriver.storage.googleapis.com
 	... 38 more
 </pre></div></td>
 <td>0</td>
-<td>demo.ProductDetailsPageTest@27f3b6d6</td></tr>
+<td>demo.SearchPageTest@5eefa415</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
@@ -214,40 +214,30 @@ Caused by: java.net.UnknownHostException: chromedriver.storage.googleapis.com
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='demo.ProductDetailsPageTest.tearDown()'><b>tearDown</b><br>Test class: demo.ProductDetailsPageTest</td>
+<td title='demo.SearchPageTest.navigateToHomePage()'><b>navigateToHomePage</b><br>Test class: demo.SearchPageTest</td>
 <td></td>
 <td>0</td>
-<td>demo.ProductDetailsPageTest@27f3b6d6</td></tr>
+<td>demo.SearchPageTest@5eefa415</td></tr>
 <tr>
-<td title='demo.ProductDetailsPageTest.navigateToHomePage()'><b>navigateToHomePage</b><br>Test class: demo.ProductDetailsPageTest</td>
+<td title='demo.SearchPageTest.tearDown()'><b>tearDown</b><br>Test class: demo.SearchPageTest</td>
 <td></td>
 <td>0</td>
-<td>demo.ProductDetailsPageTest@27f3b6d6</td></tr>
+<td>demo.SearchPageTest@5eefa415</td></tr>
 <tr>
-<td title='demo.ProductDetailsPageTest.navigateToHomePage()'><b>navigateToHomePage</b><br>Test class: demo.ProductDetailsPageTest</td>
+<td title='demo.SearchPageTest.navigateToHomePage()'><b>navigateToHomePage</b><br>Test class: demo.SearchPageTest</td>
 <td></td>
 <td>0</td>
-<td>demo.ProductDetailsPageTest@27f3b6d6</td></tr>
+<td>demo.SearchPageTest@5eefa415</td></tr>
 <tr>
-<td title='demo.ProductDetailsPageTest.navigateToHomePage()'><b>navigateToHomePage</b><br>Test class: demo.ProductDetailsPageTest</td>
+<td title='demo.SearchPageTest.navigateToHomePage()'><b>navigateToHomePage</b><br>Test class: demo.SearchPageTest</td>
 <td></td>
 <td>0</td>
-<td>demo.ProductDetailsPageTest@27f3b6d6</td></tr>
+<td>demo.SearchPageTest@5eefa415</td></tr>
 <tr>
-<td title='demo.ProductDetailsPageTest.navigateToHomePage()'><b>navigateToHomePage</b><br>Test class: demo.ProductDetailsPageTest</td>
+<td title='demo.SearchPageTest.navigateToHomePage()'><b>navigateToHomePage</b><br>Test class: demo.SearchPageTest</td>
 <td></td>
 <td>0</td>
-<td>demo.ProductDetailsPageTest@27f3b6d6</td></tr>
-<tr>
-<td title='demo.ProductDetailsPageTest.navigateToHomePage()'><b>navigateToHomePage</b><br>Test class: demo.ProductDetailsPageTest</td>
-<td></td>
-<td>0</td>
-<td>demo.ProductDetailsPageTest@27f3b6d6</td></tr>
-<tr>
-<td title='demo.ProductDetailsPageTest.navigateToHomePage()'><b>navigateToHomePage</b><br>Test class: demo.ProductDetailsPageTest</td>
-<td></td>
-<td>0</td>
-<td>demo.ProductDetailsPageTest@27f3b6d6</td></tr>
+<td>demo.SearchPageTest@5eefa415</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -258,7 +248,7 @@ Caused by: java.net.UnknownHostException: chromedriver.storage.googleapis.com
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='demo.ProductDetailsPageTest.productPricePresence()'><b>productPricePresence</b><br>Test class: demo.ProductDetailsPageTest</td>
+<td title='demo.SearchPageTest.numOfProductsOnOnePage()'><b>numOfProductsOnOnePage</b><br>Test class: demo.SearchPageTest</td>
 <td><div><pre>io.github.bonigarcia.wdm.config.WebDriverManagerException: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com
 	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1422)
 	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1203)
@@ -269,7 +259,7 @@ Caused by: java.net.UnknownHostException: chromedriver.storage.googleapis.com
 	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1203)
 	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:418)
 	at resources.Base.startDriver(Base.java:36)
-	at demo.ProductDetailsPageTest.openBrowser(ProductDetailsPageTest.java:30)
+	at demo.SearchPageTest.openBrowser(SearchPageTest.java:28)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 Caused by: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com
 	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1576)
@@ -308,8 +298,8 @@ Caused by: java.net.UnknownHostException: chromedriver.storage.googleapis.com
 	at io.github.bonigarcia.wdm.online.HttpClient.execute(HttpClient.java:158)
 	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1561)
 	... 38 more
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1234757451", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1234757451'><pre>io.github.bonigarcia.wdm.config.WebDriverManagerException: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace26502020", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace26502020'><pre>io.github.bonigarcia.wdm.config.WebDriverManagerException: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com
 	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1422)
 	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1203)
 	at io.github.bonigarcia.wdm.WebDriverManager.fallback(WebDriverManager.java:1438)
@@ -319,7 +309,7 @@ Caused by: java.net.UnknownHostException: chromedriver.storage.googleapis.com
 	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1203)
 	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:418)
 	at resources.Base.startDriver(Base.java:36)
-	at demo.ProductDetailsPageTest.openBrowser(ProductDetailsPageTest.java:30)
+	at demo.SearchPageTest.openBrowser(SearchPageTest.java:28)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -385,9 +375,9 @@ Caused by: java.net.UnknownHostException: chromedriver.storage.googleapis.com
 	... 38 more
 </pre></div></td>
 <td>0</td>
-<td>demo.ProductDetailsPageTest@27f3b6d6</td></tr>
+<td>demo.SearchPageTest@5eefa415</td></tr>
 <tr>
-<td title='demo.ProductDetailsPageTest.prouctRatingsPresence()'><b>prouctRatingsPresence</b><br>Test class: demo.ProductDetailsPageTest</td>
+<td title='demo.SearchPageTest.verifyFilterOptionsTest()'><b>verifyFilterOptionsTest</b><br>Test class: demo.SearchPageTest</td>
 <td><div><pre>io.github.bonigarcia.wdm.config.WebDriverManagerException: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com
 	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1422)
 	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1203)
@@ -398,7 +388,7 @@ Caused by: java.net.UnknownHostException: chromedriver.storage.googleapis.com
 	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1203)
 	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:418)
 	at resources.Base.startDriver(Base.java:36)
-	at demo.ProductDetailsPageTest.openBrowser(ProductDetailsPageTest.java:30)
+	at demo.SearchPageTest.openBrowser(SearchPageTest.java:28)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 Caused by: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com
 	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1576)
@@ -437,8 +427,8 @@ Caused by: java.net.UnknownHostException: chromedriver.storage.googleapis.com
 	at io.github.bonigarcia.wdm.online.HttpClient.execute(HttpClient.java:158)
 	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1561)
 	... 38 more
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace912511162", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace912511162'><pre>io.github.bonigarcia.wdm.config.WebDriverManagerException: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace270812962", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace270812962'><pre>io.github.bonigarcia.wdm.config.WebDriverManagerException: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com
 	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1422)
 	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1203)
 	at io.github.bonigarcia.wdm.WebDriverManager.fallback(WebDriverManager.java:1438)
@@ -448,7 +438,7 @@ Caused by: java.net.UnknownHostException: chromedriver.storage.googleapis.com
 	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1203)
 	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:418)
 	at resources.Base.startDriver(Base.java:36)
-	at demo.ProductDetailsPageTest.openBrowser(ProductDetailsPageTest.java:30)
+	at demo.SearchPageTest.openBrowser(SearchPageTest.java:28)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -514,9 +504,9 @@ Caused by: java.net.UnknownHostException: chromedriver.storage.googleapis.com
 	... 38 more
 </pre></div></td>
 <td>0</td>
-<td>demo.ProductDetailsPageTest@27f3b6d6</td></tr>
+<td>demo.SearchPageTest@5eefa415</td></tr>
 <tr>
-<td title='demo.ProductDetailsPageTest.addToCartAndBuyNowButtons()'><b>addToCartAndBuyNowButtons</b><br>Test class: demo.ProductDetailsPageTest</td>
+<td title='demo.SearchPageTest.verifySortingOptionsTest()'><b>verifySortingOptionsTest</b><br>Test class: demo.SearchPageTest</td>
 <td><div><pre>io.github.bonigarcia.wdm.config.WebDriverManagerException: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com
 	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1422)
 	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1203)
@@ -527,7 +517,7 @@ Caused by: java.net.UnknownHostException: chromedriver.storage.googleapis.com
 	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1203)
 	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:418)
 	at resources.Base.startDriver(Base.java:36)
-	at demo.ProductDetailsPageTest.openBrowser(ProductDetailsPageTest.java:30)
+	at demo.SearchPageTest.openBrowser(SearchPageTest.java:28)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 Caused by: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com
 	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1576)
@@ -566,8 +556,8 @@ Caused by: java.net.UnknownHostException: chromedriver.storage.googleapis.com
 	at io.github.bonigarcia.wdm.online.HttpClient.execute(HttpClient.java:158)
 	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1561)
 	... 38 more
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace765990740", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace765990740'><pre>io.github.bonigarcia.wdm.config.WebDriverManagerException: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1914538677", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1914538677'><pre>io.github.bonigarcia.wdm.config.WebDriverManagerException: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com
 	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1422)
 	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1203)
 	at io.github.bonigarcia.wdm.WebDriverManager.fallback(WebDriverManager.java:1438)
@@ -577,7 +567,7 @@ Caused by: java.net.UnknownHostException: chromedriver.storage.googleapis.com
 	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1203)
 	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:418)
 	at resources.Base.startDriver(Base.java:36)
-	at demo.ProductDetailsPageTest.openBrowser(ProductDetailsPageTest.java:30)
+	at demo.SearchPageTest.openBrowser(SearchPageTest.java:28)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -643,9 +633,9 @@ Caused by: java.net.UnknownHostException: chromedriver.storage.googleapis.com
 	... 38 more
 </pre></div></td>
 <td>0</td>
-<td>demo.ProductDetailsPageTest@27f3b6d6</td></tr>
+<td>demo.SearchPageTest@5eefa415</td></tr>
 <tr>
-<td title='demo.ProductDetailsPageTest.wishListOptionPresence()'><b>wishListOptionPresence</b><br>Test class: demo.ProductDetailsPageTest</td>
+<td title='demo.SearchPageTest.navigationOptionsTest()'><b>navigationOptionsTest</b><br>Test class: demo.SearchPageTest</td>
 <td><div><pre>io.github.bonigarcia.wdm.config.WebDriverManagerException: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com
 	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1422)
 	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1203)
@@ -656,7 +646,7 @@ Caused by: java.net.UnknownHostException: chromedriver.storage.googleapis.com
 	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1203)
 	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:418)
 	at resources.Base.startDriver(Base.java:36)
-	at demo.ProductDetailsPageTest.openBrowser(ProductDetailsPageTest.java:30)
+	at demo.SearchPageTest.openBrowser(SearchPageTest.java:28)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 Caused by: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com
 	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1576)
@@ -695,8 +685,8 @@ Caused by: java.net.UnknownHostException: chromedriver.storage.googleapis.com
 	at io.github.bonigarcia.wdm.online.HttpClient.execute(HttpClient.java:158)
 	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1561)
 	... 38 more
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1128109696", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1128109696'><pre>io.github.bonigarcia.wdm.config.WebDriverManagerException: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1947378744", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1947378744'><pre>io.github.bonigarcia.wdm.config.WebDriverManagerException: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com
 	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1422)
 	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1203)
 	at io.github.bonigarcia.wdm.WebDriverManager.fallback(WebDriverManager.java:1438)
@@ -706,7 +696,7 @@ Caused by: java.net.UnknownHostException: chromedriver.storage.googleapis.com
 	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1203)
 	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:418)
 	at resources.Base.startDriver(Base.java:36)
-	at demo.ProductDetailsPageTest.openBrowser(ProductDetailsPageTest.java:30)
+	at demo.SearchPageTest.openBrowser(SearchPageTest.java:28)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -772,265 +762,7 @@ Caused by: java.net.UnknownHostException: chromedriver.storage.googleapis.com
 	... 38 more
 </pre></div></td>
 <td>0</td>
-<td>demo.ProductDetailsPageTest@27f3b6d6</td></tr>
-<tr>
-<td title='demo.ProductDetailsPageTest.verifyProductImagePresence()'><b>verifyProductImagePresence</b><br>Test class: demo.ProductDetailsPageTest</td>
-<td><div><pre>io.github.bonigarcia.wdm.config.WebDriverManagerException: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com
-	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1422)
-	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1203)
-	at io.github.bonigarcia.wdm.WebDriverManager.fallback(WebDriverManager.java:1438)
-	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1419)
-	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1203)
-	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1412)
-	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1203)
-	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:418)
-	at resources.Base.startDriver(Base.java:36)
-	at demo.ProductDetailsPageTest.openBrowser(ProductDetailsPageTest.java:30)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-Caused by: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com
-	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1576)
-	at io.github.bonigarcia.wdm.managers.ChromeDriverManager.getDriverUrls(ChromeDriverManager.java:103)
-	at io.github.bonigarcia.wdm.WebDriverManager.createUrlHandler(WebDriverManager.java:1443)
-	at io.github.bonigarcia.wdm.WebDriverManager.download(WebDriverManager.java:1278)
-	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1197)
-	... 34 more
-Caused by: java.net.UnknownHostException: chromedriver.storage.googleapis.com
-	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:801)
-	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1509)
-	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1367)
-	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1301)
-	at org.apache.hc.client5.http.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:43)
-	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:118)
-	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:396)
-	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:158)
-	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:168)
-	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:136)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
-	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:175)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
-	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
-	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:133)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
-	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
-	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:75)
-	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:89)
-	at io.github.bonigarcia.wdm.online.HttpClient.execute(HttpClient.java:158)
-	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1561)
-	... 38 more
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace468567811", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace468567811'><pre>io.github.bonigarcia.wdm.config.WebDriverManagerException: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com
-	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1422)
-	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1203)
-	at io.github.bonigarcia.wdm.WebDriverManager.fallback(WebDriverManager.java:1438)
-	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1419)
-	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1203)
-	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1412)
-	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1203)
-	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:418)
-	at resources.Base.startDriver(Base.java:36)
-	at demo.ProductDetailsPageTest.openBrowser(ProductDetailsPageTest.java:30)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com
-	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1576)
-	at io.github.bonigarcia.wdm.managers.ChromeDriverManager.getDriverUrls(ChromeDriverManager.java:103)
-	at io.github.bonigarcia.wdm.WebDriverManager.createUrlHandler(WebDriverManager.java:1443)
-	at io.github.bonigarcia.wdm.WebDriverManager.download(WebDriverManager.java:1278)
-	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1197)
-	... 34 more
-Caused by: java.net.UnknownHostException: chromedriver.storage.googleapis.com
-	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:801)
-	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1509)
-	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1367)
-	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1301)
-	at org.apache.hc.client5.http.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:43)
-	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:118)
-	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:396)
-	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:158)
-	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:168)
-	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:136)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
-	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:175)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
-	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
-	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:133)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
-	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
-	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:75)
-	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:89)
-	at io.github.bonigarcia.wdm.online.HttpClient.execute(HttpClient.java:158)
-	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1561)
-	... 38 more
-</pre></div></td>
-<td>0</td>
-<td>demo.ProductDetailsPageTest@27f3b6d6</td></tr>
-<tr>
-<td title='demo.ProductDetailsPageTest.productSpecificationPresence()'><b>productSpecificationPresence</b><br>Test class: demo.ProductDetailsPageTest</td>
-<td><div><pre>io.github.bonigarcia.wdm.config.WebDriverManagerException: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com
-	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1422)
-	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1203)
-	at io.github.bonigarcia.wdm.WebDriverManager.fallback(WebDriverManager.java:1438)
-	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1419)
-	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1203)
-	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1412)
-	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1203)
-	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:418)
-	at resources.Base.startDriver(Base.java:36)
-	at demo.ProductDetailsPageTest.openBrowser(ProductDetailsPageTest.java:30)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-Caused by: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com
-	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1576)
-	at io.github.bonigarcia.wdm.managers.ChromeDriverManager.getDriverUrls(ChromeDriverManager.java:103)
-	at io.github.bonigarcia.wdm.WebDriverManager.createUrlHandler(WebDriverManager.java:1443)
-	at io.github.bonigarcia.wdm.WebDriverManager.download(WebDriverManager.java:1278)
-	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1197)
-	... 34 more
-Caused by: java.net.UnknownHostException: chromedriver.storage.googleapis.com
-	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:801)
-	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1509)
-	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1367)
-	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1301)
-	at org.apache.hc.client5.http.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:43)
-	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:118)
-	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:396)
-	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:158)
-	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:168)
-	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:136)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
-	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:175)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
-	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
-	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:133)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
-	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
-	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:75)
-	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:89)
-	at io.github.bonigarcia.wdm.online.HttpClient.execute(HttpClient.java:158)
-	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1561)
-	... 38 more
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace673684041", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace673684041'><pre>io.github.bonigarcia.wdm.config.WebDriverManagerException: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com
-	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1422)
-	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1203)
-	at io.github.bonigarcia.wdm.WebDriverManager.fallback(WebDriverManager.java:1438)
-	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1419)
-	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1203)
-	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1412)
-	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1203)
-	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:418)
-	at resources.Base.startDriver(Base.java:36)
-	at demo.ProductDetailsPageTest.openBrowser(ProductDetailsPageTest.java:30)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com
-	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1576)
-	at io.github.bonigarcia.wdm.managers.ChromeDriverManager.getDriverUrls(ChromeDriverManager.java:103)
-	at io.github.bonigarcia.wdm.WebDriverManager.createUrlHandler(WebDriverManager.java:1443)
-	at io.github.bonigarcia.wdm.WebDriverManager.download(WebDriverManager.java:1278)
-	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1197)
-	... 34 more
-Caused by: java.net.UnknownHostException: chromedriver.storage.googleapis.com
-	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:801)
-	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1509)
-	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1367)
-	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1301)
-	at org.apache.hc.client5.http.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:43)
-	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:118)
-	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:396)
-	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:158)
-	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:168)
-	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:136)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
-	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:175)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
-	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
-	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:133)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
-	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
-	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:75)
-	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:89)
-	at io.github.bonigarcia.wdm.online.HttpClient.execute(HttpClient.java:158)
-	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1561)
-	... 38 more
-</pre></div></td>
-<td>0</td>
-<td>demo.ProductDetailsPageTest@27f3b6d6</td></tr>
+<td>demo.SearchPageTest@5eefa415</td></tr>
 </table><p>
 </body>
 </html>

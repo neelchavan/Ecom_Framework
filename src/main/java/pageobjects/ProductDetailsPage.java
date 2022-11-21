@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
 public class ProductDetailsPage {
-	public WebDriver driver;
+	private WebDriver driver;
 
 	public ProductDetailsPage(WebDriver driver) {
 		this.driver = driver;

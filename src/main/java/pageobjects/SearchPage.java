@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class SearchPage {
-	public WebDriver driver;
+	private WebDriver driver;
 	HomePage hp;
 	ProductDetailsPage pd;
 

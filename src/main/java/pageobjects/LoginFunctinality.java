@@ -8,7 +8,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class LoginFunctinality {
-	public WebDriver driver;
+	private WebDriver driver;
 	LoginFunctinality lf;
 	String validMail = "neelchavan418@gmail.com";
 	String validPass = "engineer1000";

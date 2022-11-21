@@ -22,7 +22,7 @@ public class HomePage {
 
 	private static Logger log = LogManager.getLogger(HomePage.class.getName());
 
-	public WebDriver driver;
+	private WebDriver driver;
 	public static String flipEmail;
 	public static String flipPassword;
 	HomePage hp;
@@ -77,12 +77,8 @@ public class HomePage {
 
 	public boolean verifyProdCatagories() {
 		boolean status = false;
-//		List<String> expectedCatagoris = Arrays.asList("Top Offers", "Grocery", "Mobiles", "Fashion", "Electronics", "Home",
-//				"Appliances", "Travel", "Beauty, Toys & More, Electric 2-Wheelers");
-		// List<String> displayedCatagories = new ArrayList<String>();
 		List<WebElement> catagorieList = driver.findElements(catagories);
 		for (WebElement x : catagorieList) {
-			// System.out.println(x.getText());
 			if (x.isDisplayed()) {
 				status = true;
 			} else {
